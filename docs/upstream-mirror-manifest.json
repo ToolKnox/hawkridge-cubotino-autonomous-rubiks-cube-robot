@@ -1,0 +1,451 @@
+{
+ "repo": "AndreaFavero71/cubotino",
+ "commit": "7cd1ad6002df466603e3c86713795f1dde25e065",
+ "files": [
+  {
+   "path": ".gitignore",
+   "sha": "83b1c351f8cf7b3b077fbf5209134ec93b038fa0"
+  },
+  {
+   "path": "LICENSE",
+   "sha": "2f244ac814036ecd9ba9f69782e89ce6b1dca9eb"
+  },
+  {
+   "path": "README.md",
+   "sha": "d95df99a9b788e31f765a14f41d451cc64c496cc"
+  },
+  {
+   "path": "connections_board/gerber/Drill_NPTH_Through.DRL",
+   "sha": "616e38c357dc78ef45a785fc3bbe3311637f54ad"
+  },
+  {
+   "path": "connections_board/gerber/Drill_PTH_Through.DRL",
+   "sha": "ba344797fa6231b126f3ff53a6bea29893fb4b15"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_BoardOutlineLayer.GKO",
+   "sha": "fad3ffcd219309466e58bbe353d51ae2e832582d"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_BottomLayer.GBL",
+   "sha": "f9d47f3306b5960171f9806130b7de209550627f"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_BottomSilkscreenLayer.GBO",
+   "sha": "823a0b106a3488a281fb6239a5a13a79f801f0a2"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_BottomSolderMaskLayer.GBS",
+   "sha": "886751a17bb9844c3a7a4e117ecaafe42ecb5105"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_TopLayer.GTL",
+   "sha": "2ab6e2c05f8496ff17a1825ad30752923c679ee2"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_TopSilkscreenLayer.GTO",
+   "sha": "115fb012ba6e314de40976b7724b84b95639dd32"
+  },
+  {
+   "path": "connections_board/gerber/Gerber_TopSolderMaskLayer.GTS",
+   "sha": "da16f4cdad19d08af59879e925e84642401d6f00"
+  },
+  {
+   "path": "connections_board/info/Cubotino_PCB_Rev-1.1.png",
+   "sha": "912639261262a128f46b514246424120189eb741"
+  },
+  {
+   "path": "connections_board/info/Cubotino_Rev_1.1_Back_View.jpg",
+   "sha": "0e3064391c3f65e4d69562ed5ff8ecb86ec596ae"
+  },
+  {
+   "path": "connections_board/info/Cubotino_Rev_1.1_Front_View.jpg",
+   "sha": "1bba651fb84a9ea0466dc3bdc595719c127b142e"
+  },
+  {
+   "path": "connections_board/info/How-to-order-PCB.txt",
+   "sha": "439b1861cb6b3b2cf295e65bc957ba9e5c76d149"
+  },
+  {
+   "path": "connections_board/info/IMG_20220806_172817.jpg",
+   "sha": "b6a16d5d8cdb684f5cc4dda84eeb3bd5d311ceb3"
+  },
+  {
+   "path": "connections_board/info/IMG_20220806_172827.jpg",
+   "sha": "39f6b57bde2bee2cf41dc343922853b845449694"
+  },
+  {
+   "path": "connections_board/info/Schematic_Cubotino.pdf",
+   "sha": "df064784159a6d2d071c040feb9cc7a3e181546d"
+  },
+  {
+   "path": "doc/How_to_make_CUBOTino_autonomous_robot_20220625.pdf",
+   "sha": "e86d51179190e521f24659371f3537a88df74b5d"
+  },
+  {
+   "path": "doc/How_to_make_CUBOTino_autonomous_robot_20260511.pdf",
+   "sha": "0f0f86e83550c47cb3374a1605f19e0568477c5e"
+  },
+  {
+   "path": "extra/dl_link.sh",
+   "sha": "26c724928e5bb4b42ef05f633eb1a3f8f85f9a2b"
+  },
+  {
+   "path": "images/Servo_tuning_GUI_01.PNG",
+   "sha": "4536f0a6b271d7c8d5a95dae0b7a2e29bfcb192b"
+  },
+  {
+   "path": "images/title.jpg",
+   "sha": "30284f77c9d8390534b5b8fa50cbba747c65fe4b"
+  },
+  {
+   "path": "personalizations/readme.md",
+   "sha": "c8f9a6e0ae69ce1cb4f56bc9be81df83fc18c375"
+  },
+  {
+   "path": "personalizations/waveshare_displays/PCB_covers_waveshare_models.zip",
+   "sha": "ed9af922560d90227ea14551d5591dc940c49152"
+  },
+  {
+   "path": "personalizations/waveshare_displays/Readme.md",
+   "sha": "eaeddfc6e42705111871c816c0983021c2858aac"
+  },
+  {
+   "path": "personalizations/waveshare_displays/images/Waveshare-assm.jpg",
+   "sha": "09afbe335cf6b986e1b987a3ed96df07cf79b702"
+  },
+  {
+   "path": "personalizations/waveshare_displays/images/Waveshare-pins.jpg",
+   "sha": "4a8ce5d31c6756d37d5dbab9e7f2f1d2f3c8ab5a"
+  },
+  {
+   "path": "personalizations/waveshare_displays/images/Waveshare-wiring.jpg",
+   "sha": "70b2ef17079384bc9c61d70a4d382e31d28a6758"
+  },
+  {
+   "path": "src/Cubotino_T.py",
+   "sha": "fe49ac3caa80c206c14585090b84672a30cb9f47"
+  },
+  {
+   "path": "src/Cubotino_T_Logo_265x212_BW.jpg",
+   "sha": "69bc9c8c22832832478ce206b34ff0c91df9e4d2"
+  },
+  {
+   "path": "src/Cubotino_T_bash.sh",
+   "sha": "29e6291086a363b06251f4d0e1859c10a22d6074"
+  },
+  {
+   "path": "src/Cubotino_T_camera_os10.py",
+   "sha": "fe5daeb951653dcb587c05fdbf09529d21ca0c9c"
+  },
+  {
+   "path": "src/Cubotino_T_camera_os11.py",
+   "sha": "acd2f2f345b46e1357a7e56258f0681e47e627f9"
+  },
+  {
+   "path": "src/Cubotino_T_display.py",
+   "sha": "11215069b140e4b182d8789c1cdad53604a3c217"
+  },
+  {
+   "path": "src/Cubotino_T_moves.py",
+   "sha": "0a6470374392de1c2b95646dcfde7b05cb3c1f2a"
+  },
+  {
+   "path": "src/Cubotino_T_pigpiod.py",
+   "sha": "12712b41cfa95f42fa647d06c07bc94c6271ddcb"
+  },
+  {
+   "path": "src/Cubotino_T_servo_settings_AF1.txt",
+   "sha": "07cb3ad7a5a8246ed21f5e53805e5a7acfd2a5fa"
+  },
+  {
+   "path": "src/Cubotino_T_servo_settings_AF2.txt",
+   "sha": "8621af16ab894e59f4ea8d51deb179e5767678f4"
+  },
+  {
+   "path": "src/Cubotino_T_servo_settings_default.txt",
+   "sha": "c3532dd9eaa19d33ce2db51cb4e65db0262d72c2"
+  },
+  {
+   "path": "src/Cubotino_T_servos.py",
+   "sha": "36c48f6e02d31404b3a3195611e5243583976f64"
+  },
+  {
+   "path": "src/Cubotino_T_servos_GUI.py",
+   "sha": "7d8cb323926bc8969efa74412d406b87a4645bcd"
+  },
+  {
+   "path": "src/Cubotino_T_set_picamera_gain.py",
+   "sha": "0303d6c4ce5babcdaee65512d63020b681eb35d7"
+  },
+  {
+   "path": "src/Cubotino_T_settings_AF1.txt",
+   "sha": "6520b1856398b30f6f0d41bb98ea957b56e45b7c"
+  },
+  {
+   "path": "src/Cubotino_T_settings_AF2.txt",
+   "sha": "411fe6320d18b2bf5d931b37249c878cdf52b0e9"
+  },
+  {
+   "path": "src/Cubotino_T_settings_default.txt",
+   "sha": "b62f43ab931c7be0632ae6c49119e5cb986b4e6b"
+  },
+  {
+   "path": "src/Cubotino_T_settings_manager.py",
+   "sha": "c0eb9bf2f9549fb3dad6b37cbd1de6eba387a570"
+  },
+  {
+   "path": "src/Cubotino_T_test_random.py",
+   "sha": "623e369c36044139c700e6790f7c36ab071a0e50"
+  },
+  {
+   "path": "src/install/setup.sh",
+   "sha": "955e3e12e3626166b026958ecd293226c1c0a307"
+  },
+  {
+   "path": "src/macs_AF.txt",
+   "sha": "0fcbccce9ed64f6a899d09daafe44f0c6284a25c"
+  },
+  {
+   "path": "src/twophase/co_classidx",
+   "sha": "2eeefaa49531e1aaa6b27a0bddd00131ba8647a0"
+  },
+  {
+   "path": "src/twophase/co_rep",
+   "sha": "aa38e913db14e9da9c0e96138f492fd8797b5b06"
+  },
+  {
+   "path": "src/twophase/co_sym",
+   "sha": "5fe43a9ce07ad7a971371de4505ee6e1846fd209"
+  },
+  {
+   "path": "src/twophase/conj_twist",
+   "sha": "8971d63d4630af9a25c3731a9005a8acd8ebd9f9"
+  },
+  {
+   "path": "src/twophase/conj_ud_edges",
+   "sha": "ec191453cb7efe93c5bfbcc788ca25e780bb2272"
+  },
+  {
+   "path": "src/twophase/fs_classidx",
+   "sha": "f300ddc3ddc6e5b95ce6571ec9375834a4aef0b7"
+  },
+  {
+   "path": "src/twophase/fs_rep",
+   "sha": "4aed14f3ee343b068f57e2694da91363ba2d3ecd"
+  },
+  {
+   "path": "src/twophase/fs_sym",
+   "sha": "75372b473ac9706db3adaa54f98b45f3daa80463"
+  },
+  {
+   "path": "src/twophase/move_corners",
+   "sha": "0f7b32142139b2b30690f82d8a70780393c11a58"
+  },
+  {
+   "path": "src/twophase/move_d_edges",
+   "sha": "622e8cc4059da9a86bcb874be2b7c2b94c2a4ea5"
+  },
+  {
+   "path": "src/twophase/move_flip",
+   "sha": "51dc296d9b83f3072f32c078e898d74eb70f7a97"
+  },
+  {
+   "path": "src/twophase/move_slice_sorted",
+   "sha": "e7e28b99b8fcfac8a5b995f819c88aa0f10cd07e"
+  },
+  {
+   "path": "src/twophase/move_twist",
+   "sha": "ccb50746898af520d8d854747c9efe0f9bbe6129"
+  },
+  {
+   "path": "src/twophase/move_u_edges",
+   "sha": "622e8cc4059da9a86bcb874be2b7c2b94c2a4ea5"
+  },
+  {
+   "path": "src/twophase/move_ud_edges",
+   "sha": "24c1175bd32bf7b04ca11be79ea193c8699237e1"
+  },
+  {
+   "path": "src/twophase/phase1_prun",
+   "sha": "a4e30942aafdb2dd81fb93f85c58afa3c9cfc184"
+  },
+  {
+   "path": "src/twophase/phase2_cornsliceprun",
+   "sha": "6f996004f0c84e3fa279be2364c408ed229c8454"
+  },
+  {
+   "path": "src/twophase/phase2_edgemerge",
+   "sha": "752e231380e5f57f5ca9683b157166be6770922e"
+  },
+  {
+   "path": "src/twophase/phase2_prun",
+   "sha": "cf9718ca892aa365299dc480518316916adf3d05"
+  },
+  {
+   "path": "stl/Alternative_Servo_axis_inf.stl",
+   "sha": "8bd4e7e65473655db150e2d70bf999305fc3ce82"
+  },
+  {
+   "path": "stl/Alternative_Servo_axis_sup.stl",
+   "sha": "6f828eed17ea22f2d8266a2dd0871e45bddc509d"
+  },
+  {
+   "path": "stl/Baseplate_front.stl",
+   "sha": "2c9c5f2a2b007afbcb7d53581ae57fced3679274"
+  },
+  {
+   "path": "stl/Baseplate_rear.stl",
+   "sha": "c59605edaf5a68d07a316e78a685c422c6064538"
+  },
+  {
+   "path": "stl/Cube_holder.stl",
+   "sha": "67644815989c10327d50f5df1ed352473aa72b1f"
+  },
+  {
+   "path": "stl/Extension_left.stl",
+   "sha": "9446fe72d704457d4dbb83da022c1c3c17679331"
+  },
+  {
+   "path": "stl/Extension_middle.stl",
+   "sha": "36a827edae88c64077c13b41291cb339a72474cc"
+  },
+  {
+   "path": "stl/Extension_right.stl",
+   "sha": "300c4ec072dd3103e57ad8d53267a28c366a7e96"
+  },
+  {
+   "path": "stl/Hinge.stl",
+   "sha": "a8b87c640fe72f501cf31be054976c3d20dd9212"
+  },
+  {
+   "path": "stl/Lifter.stl",
+   "sha": "3833145555c7c1c7de90072181a2e610033decd5"
+  },
+  {
+   "path": "stl/PCB_cover_display.stl",
+   "sha": "ebab7284a070a5fdd892028275b6103923f2b78f"
+  },
+  {
+   "path": "stl/PCB_cover_display_UsbC.stl",
+   "sha": "643d086499748d7b786708178d37bcf3615c36ff"
+  },
+  {
+   "path": "stl/Personaliz_plate.stl",
+   "sha": "42faef8b39a539951435c4f2a9a8e5246a16b33f"
+  },
+  {
+   "path": "stl/Personaliz_plate_01.stl",
+   "sha": "1c01aca64a29829d49c11c711ebc9ce48c55397c"
+  },
+  {
+   "path": "stl/PiCamera_holder_V1_V2_V3.stl",
+   "sha": "6041c0ad0de9b35f7e0a1eb268a33261b117b42c"
+  },
+  {
+   "path": "stl/Picamera_holder_frame.stl",
+   "sha": "5966049edc2381dcff64cfa0c65a20b36ee644ee"
+  },
+  {
+   "path": "stl/Servo_axis_inf.stl",
+   "sha": "fc67d4567099dd0124cbb2f3d515d28c84f9704b"
+  },
+  {
+   "path": "stl/Servo_axis_sup.stl",
+   "sha": "5c01c001b2f8d9ca6415028a6e1c5683cb035f79"
+  },
+  {
+   "path": "stl/Structure.stl",
+   "sha": "560e33aceb58b32721c12d8a716f1aabc0e38336"
+  },
+  {
+   "path": "stl/Top_cover.stl",
+   "sha": "263dab71cb0e15d688113b55ae60c2173da4b8a0"
+  },
+  {
+   "path": "stp/Alternative_Servo_axis_inf.stp",
+   "sha": "1a1c3b0fb096e7201d34b3a24d3cec1ac4129950"
+  },
+  {
+   "path": "stp/Alternative_Servo_axis_sup.stp",
+   "sha": "7bffdc3150937b724da9bcba4f3882ed59194437"
+  },
+  {
+   "path": "stp/Baseplate_front.stp",
+   "sha": "37e39ffc9771dfbfde582486c1aedb2131a6befe"
+  },
+  {
+   "path": "stp/Baseplate_rear.stp",
+   "sha": "887590c0644a01c344ef7c72ff5b3b0d18419356"
+  },
+  {
+   "path": "stp/CUBOTino_Autonomous_rev8_step.zip",
+   "sha": "4e4d0ff8634a6ea9a50f53dbbdddcf8cd7be9ed2"
+  },
+  {
+   "path": "stp/Cube_holder.stp",
+   "sha": "ef3a5b299e8538176ebc1a5a6818b622ee9db612"
+  },
+  {
+   "path": "stp/Extension_left.stp",
+   "sha": "b2020dd4c5b966c3bb4b11a0b767506f58014110"
+  },
+  {
+   "path": "stp/Extension_middle.stp",
+   "sha": "d66d001cd69e78ce4ddeb84a2cc782ae2206b7ce"
+  },
+  {
+   "path": "stp/Extension_right.stp",
+   "sha": "5421e7619c5bd8a006c7416a5cd3ac6ae98ecf4c"
+  },
+  {
+   "path": "stp/Hinge.stp",
+   "sha": "50071bf41f9028ee760398b386c18a3d2cd849d9"
+  },
+  {
+   "path": "stp/Lifter.stp",
+   "sha": "15b3ee5da58ea1431354a02a79fcaf2f282f2fea"
+  },
+  {
+   "path": "stp/PCB_cover_display.stp",
+   "sha": "99b617873fed45bdbbdc4eea334df7a1d1deb262"
+  },
+  {
+   "path": "stp/PCB_cover_display_UsbC.stp",
+   "sha": "e85f626daf1dbc5e11f16458b782a7dc217f8da3"
+  },
+  {
+   "path": "stp/Personaliz_plate.stp",
+   "sha": "ca39f348bd60c8108cb30f2d18236c5fb273f75b"
+  },
+  {
+   "path": "stp/Personaliz_plate_01.stp",
+   "sha": "2455754b86e4889095488c2e2624b816aad7a65b"
+  },
+  {
+   "path": "stp/PiCamera_holder_V1_V2_V3.stp",
+   "sha": "d585cdad20485848da7805a15b8f75467c27cb1a"
+  },
+  {
+   "path": "stp/Picamera_holder_frame.stp",
+   "sha": "d5a6e758d64dec1599f705fb38111423e2b7f43a"
+  },
+  {
+   "path": "stp/Servo_axis_inf.stp",
+   "sha": "0e74cd96960b706e6f79a831a418776d1df4677e"
+  },
+  {
+   "path": "stp/Servo_axis_sup.stp",
+   "sha": "373c922800e9537115457c1071a8df4d658f7842"
+  },
+  {
+   "path": "stp/Structure.stp",
+   "sha": "eb3ae950954a9647d7238106946b6b9a0b677545"
+  },
+  {
+   "path": "stp/Top_cover.stp",
+   "sha": "c37e1b93c5fb25f6cd3528bfd090db61184f7c4e"
+  }
+ ],
+ "excluded": []
+}
