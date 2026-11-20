@@ -68,6 +68,10 @@ Based on CUBOTino Autonomous by Andrea Favero, CC BY 4.0. Changes: combined prin
 - Robot software, installer and servo tuning GUI (`Cubotino_T_servos_GUI.py`): `source/upstream/src/` in this repository.
 - Connections board Gerbers and STEP files: `source/upstream/connections_board/` and `source/upstream/stp/` in this repository.
 
+## Bill of Material
+
+[Bill of Material (PDF)](docs/CUBOTino%20Cube%20Solving%20Robot%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
+
 ## Documentation download
 
 This repository is the documentation and source download for the build.
