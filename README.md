@@ -70,6 +70,8 @@ Based on CUBOTino Autonomous by Andrea Favero, CC BY 4.0. Changes: combined prin
 
 ## Bill of Material
 
+[Bill of Material (web page)](https://toolknox.github.io/hawkridge-cubotino-autonomous-rubiks-cube-robot/bill-of-material.html): open in the browser and click straight through to each part.
+
 [Bill of Material (PDF)](docs/CUBOTino%20Cube%20Solving%20Robot%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
 
 ## Documentation download
